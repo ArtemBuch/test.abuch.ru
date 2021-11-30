@@ -17,8 +17,6 @@ new Swiper('.swiper-container', {
         stopOnLastSlide: true,
     },
     speed: 800,
-    //slidesPerView: 3,
-    //spaceBetween: 0,
     initialSlide: 0,
     loop: true,
     loopedSlides: 3,
@@ -30,12 +28,9 @@ new Swiper('.swiper-container', {
     effect: 'coverflow',
 
     coverflowEffect: {
-        //Угол
         rotate: 20,
-        //Наложение
         stretch: 0,
-        //Тень
-        slideShadows: true,
+        slideShadows: false,
         scale: 0.6,
     },
     
