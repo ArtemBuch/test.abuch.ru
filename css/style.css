@@ -1,0 +1,57 @@
+html, body {
+    height:100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    flex: 1 1 auto;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 945px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 690px) {
+    .container {
+        max-width: none;
+        margin: 0 auto;
+    }
+}
+
+/* -------------------------------- HEADER BLOCK -------------------------------- */
+
+.header {
+}
+
+/* -------------------------------- END HEADER BLOCK -------------------------------- */
+/* -------------------------------- CONTENT BLOCK -------------------------------- */
+
+.content {
+    flex: 1 1 auto;
+}
+
+/* -------------------------------- END CONTENT BLOCK -------------------------------- */
+/* -------------------------------- FOOTER BLOCK -------------------------------- */
+
+
+
+/* -------------------------------- END FOOTER BLOCK -------------------------------- */
